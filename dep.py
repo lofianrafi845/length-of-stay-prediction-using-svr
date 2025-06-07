@@ -84,7 +84,7 @@ def main():
     
     # --- PERUBAHAN BAHASA DIMULAI DI SINI ---
 
-    st.title("🏥 Prediktor Lama Rawat Inap")
+    st.title("🏥 Prediksi Lama Rawat Inap")
     st.markdown("Aplikasi untuk memprediksi lama tinggal pasien di rumah sakit menggunakan Support Vector Regression (SVR).")
     
     model, scaler_X, scaler_y = load_model()
