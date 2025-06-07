@@ -77,7 +77,7 @@ def predict_length_of_stay(input_data, model, scaler_X, scaler_y):
 
 def main():
     st.set_page_config(
-        page_title="Prediktor Lama Rawat Inap",
+        page_title="Prediksi Lama Rawat Inap",
         page_icon="🏥",
         layout="centered"
     )
