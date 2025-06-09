@@ -186,13 +186,6 @@ def main():
             st.subheader("🎯 Hasil Prediksi")
             st.success(f"**{days} hari {hours} jam**")
             
-            # if prediction < 3:
-            #     st.markdown("🟢 **Kategori: Rawat inap pendek**")
-            # elif prediction < 7:
-            #     st.markdown("🟡 **Kategori: Rawat inap sedang**")
-            # else:
-            #     st.markdown("🔴 **Kategori: Rawat inap panjang**")
-            
             st.subheader("📋 Ringkasan Data Input")
             if positive_conditions:
                 st.markdown("**Kondisi Medis yang Ditemukan:**")
